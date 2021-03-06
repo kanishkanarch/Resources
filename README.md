@@ -10,3 +10,5 @@ https://unix.stackexchange.com/questions/28803/how-can-i-reduce-a-videos-size-wi
 
 Publish WebCam images on a rostopic: rosrun image_publisher image_publisher 0
 Publish a random video on webcam: rosrun image_publisher image_publisher PATH_TO_VIDEO.mp4
+
+Robotics: https://github.com/shannon112/awesome-ros-mobile-robot
