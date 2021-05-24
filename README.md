@@ -1,6 +1,8 @@
 # Resources
 All online webpages, books, papers, resources and notes which helped me.
 
+Books and Resources Google Drive: https://drive.google.com/drive/folders/1hfmBkkRgEGcsRY9vq0fKBUYVecY3ndW1?usp=sharing
+
 Camera Calibration in Gazebo: https://github.com/oKermorgant/calibration_gazebo
 
 Compress a picture or an audio using FFMPEG
@@ -15,4 +17,13 @@ Robotics: https://github.com/shannon112/awesome-ros-mobile-robot
 
 Tags: `git stash`, `checkout`, `stage`, `new branch`
 ![image](https://user-images.githubusercontent.com/52484751/113169246-0ba96300-9263-11eb-812c-29934febc63c.png)
+
 Edited a cloned repo without checking out of `main` branch? Use `git stash` like this to shift all edited changes (after staging from `main`) to your desired branch.
+
+Import a Python file (predict.py in this case) from another directory:
+
+```python
+path = os.path.dirname(__file__)+"/../non-ROS_teams/perception"
+sys.path.insert(0, path)
+import predict 
+```
