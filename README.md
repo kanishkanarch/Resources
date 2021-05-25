@@ -17,7 +17,8 @@ Robotics learning resources & projects: https://github.com/shannon112/awesome-ro
 
 ### VSCode Extensions:
 
-![image](https://user-images.githubusercontent.com/52484751/119469695-398fbd00-bd65-11eb-9311-5e305fca8917.png)
+![image](https://user-images.githubusercontent.com/52484751/119469695-398fbd00-bd65-11eb-9311-5e305fca8917.png)<br>![image](https://user-images.githubusercontent.com/52484751/119471391-de5eca00-bd66-11eb-9168-9ce8d23bd26c.png)
+
 
 Import a Python file (predict.py in this case) from another directory:
 
