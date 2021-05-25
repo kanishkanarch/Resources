@@ -1,5 +1,5 @@
 # Resources
-All online webpages, books, papers, resources and notes which helped me.
+### All online webpages, books, papers, resources and notes which helped me.
 
 Books and Resources Google Drive: https://drive.google.com/drive/folders/1hfmBkkRgEGcsRY9vq0fKBUYVecY3ndW1?usp=sharing
 
@@ -13,12 +13,11 @@ https://unix.stackexchange.com/questions/28803/how-can-i-reduce-a-videos-size-wi
 Publish WebCam images on a rostopic: rosrun image_publisher image_publisher 0
 Publish a random video on webcam: rosrun image_publisher image_publisher PATH_TO_VIDEO.mp4
 
-Robotics: https://github.com/shannon112/awesome-ros-mobile-robot
+Robotics learning resources & projects: https://github.com/shannon112/awesome-ros-mobile-robot
 
-Tags: `git stash`, `checkout`, `stage`, `new branch`
-![image](https://user-images.githubusercontent.com/52484751/113169246-0ba96300-9263-11eb-812c-29934febc63c.png)
+### VSCode Extensions:
 
-Edited a cloned repo without checking out of `main` branch? Use `git stash` like this to shift all edited changes (after staging from `main`) to your desired branch.
+![image](https://user-images.githubusercontent.com/52484751/119469695-398fbd00-bd65-11eb-9311-5e305fca8917.png)
 
 Import a Python file (predict.py in this case) from another directory:
 
