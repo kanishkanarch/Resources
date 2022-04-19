@@ -1,0 +1,4 @@
+invalidemail
+invaid@email
+invalid@@.
+invalid.@

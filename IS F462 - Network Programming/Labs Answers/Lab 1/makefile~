@@ -1,0 +1,26 @@
+build: function.o main.o
+	gcc function.o main.o -o program
+
+debug-build: function.o main.o
+	gcc -g function.o main.o -o program
+
+profile-build: function.o main.o
+	gcc -pg function.o main.o -o program
+
+function.o: function.c
+	gcc -c function.c
+
+main.o: main.c
+	gcc -c main.c
+
+run: build
+	./program
+
+profile: profile-build
+	gprof program>program_profile.txt
+
+clean:
+	rm -rf *.o
+	rm -rf program
+	rm -rf *.out
+	rm -rf *.txt
